@@ -55,6 +55,7 @@ public class Aluno extends Praticante {
     void agendarAula(int idAula){
         // Lógica para agendar aula com base no ID da aula
         // Exemplo: alunosAgendados.add(this);
+        
     }
     
 }

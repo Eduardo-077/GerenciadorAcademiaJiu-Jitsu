@@ -9,5 +9,6 @@ public class Professor extends Praticante {
     void criarAula(int data, String horario, String local) {
         Aula aula = new Aula(data, horario, local, this);
         
+        
     }
 }
