@@ -36,6 +36,7 @@ public class Aluno extends Praticante {
         return frequenciaSemanal;
     }
     
+    
     double getMensalidade() {
         return mensalidade;
     }
@@ -55,7 +56,7 @@ public class Aluno extends Praticante {
     void agendarAula(int idAula){
         // Lógica para agendar aula com base no ID da aula
         // Exemplo: alunosAgendados.add(this);
-        
+        //Nave
     }
     
 }

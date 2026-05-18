@@ -14,5 +14,10 @@ public class Praticante {
     public String getNome() {
         return nome;
     }
-    
+    public int getMatricula() {
+        return matricula;
+    }
+    public String getGraduacao() {
+        return graduacao;
+    }
 }

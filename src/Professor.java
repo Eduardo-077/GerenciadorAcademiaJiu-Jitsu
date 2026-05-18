@@ -6,9 +6,8 @@ public class Professor extends Praticante {
     }
 
     
-    void criarAula(int data, String horario, String local) {
-        Aula aula = new Aula(data, horario, local, this);
-        
-        
+    public void criarAula(int data, String horario, String local, ListaAulas listaAulas) {
+        Aula aula = new Aula(data, horario, local, this, listaAulas);
+        System.out.println("Aula criada com ID: " + aula.getIdAula());
     }
 }
