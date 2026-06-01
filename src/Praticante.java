@@ -1,8 +1,8 @@
-public class Praticante {
-    private String nome;
-    private int matricula;
-    private String graduacao;
-    private int numAulas;
+public abstract class Praticante {
+    protected String nome;
+    protected int matricula;
+    protected String graduacao;
+    protected int numAulas;
 
     public Praticante(String nome, int matricula, String graduacao) {
         this.nome = nome;
